@@ -1,0 +1,104 @@
+/* .............photos................. */
+
+
+@media only screen and (max-width:1124px) {
+
+    .container .box{
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    
+    .container .box .pictures{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+
+    .container .heading{
+      margin: 20px 0 10px 0px;
+      border-bottom: 3px solid #222;
+      width: 50%;
+      text-align: center;
+      margin: 20px 0 20px 0;
+      background-color: RGB(255, 249, 223);
+  }
+  
+  .container .heading h3{
+      font-size: 2.7em;
+      
+  }
+  
+  .container .heading h3 span{
+      font-size: .9em;
+  }
+
+
+    .container .box .pictures .btn button{
+        padding: 10px 20px;
+        margin: 0 0 10px 0;
+        background: rgb(243, 243, 229);
+     
+        border-radius: 5px;
+        border: none;
+        font-size: 2em;
+     
+     }
+
+     .container .box .pictures .btn{
+        padding: 20px 0 20px 0;
+ 
+     
+     }
+
+    
+}
+
+
+
+
+@media only screen and (max-width:719px){
+
+    .container .box .pictures .btn button{
+        padding: 10px 20px;
+        margin: 0 0 10px 0;
+        background: rgb(243, 243, 229);
+     
+        border-radius: 5px;
+        border: none;
+        font-size: 1.2em;
+     
+     }
+
+}
+
+
+
+@media only screen and (max-width:420px){
+
+  .navbar ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.page-1 img{
+    height: 100px;
+    padding-top: 10px;
+}
+
+.navbar ul li a{
+    padding: 10px 30px;
+    font-size: 1.5em;
+    color: white;
+    
+}
+
+}
